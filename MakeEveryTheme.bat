@@ -1,3 +1,4 @@
+rem By Migush and Stackoverflow ~ not the best code
 @echo off
 Setlocal EnableDelayedExpansion
 rem Set important variables
@@ -7,9 +8,9 @@ rem Set important variables
 	rem Set the SwitchThemeInjector directory
 		Set "StiEXE=K:\NSW\Themes\Very nice theme\tools\SwitchThemeInjector\Release4.0\SwitchThemes.exe"
 	rem Set the folder with dds backgrounds
-		Set "DDSFolder=K:\NSW\Themes\Very nice theme\backgrounds"
+		Set "DDSFolder=K:\NSW\Themes\Very nice theme\NSW-Themes\backgrounds"
 	rem Set folder with menu overlay for preview images
-		Set "OverlayPreview=Overlay\%ThemeName%"
+		Set "OverlayPreview=Overlays\%ThemeName%"
 		Set Sevenz="C:\Program Files\7-Zip\7z.exe"
 :MENU0.5
 clear
