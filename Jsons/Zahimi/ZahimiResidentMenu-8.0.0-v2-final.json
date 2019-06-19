@@ -1,0 +1,620 @@
+{
+  "PatchName": "diffPatchfor home menu",
+  "AuthorName": "autoDiff",
+  "TargetName": "ResidentMenu.szs",
+  "Ready8X": true,
+  "Files": [
+    {
+      "FileName": "blyt/RdtBtnCtrl.bflyt",
+      "Patches": [
+        {
+          "PaneName": "P_PictBase",
+          "Visible": false
+        },
+        {
+          "PaneName": "N_BtnFocusKey",
+          "Size": {
+            "X": 70.0,
+            "Y": 70.0
+          }
+        },
+        {
+          "PaneName": "P_Effect",
+          "Size": {
+            "X": 64.0,
+            "Y": 64.0
+          }
+        },
+        {
+          "PaneName": "B_Hit",
+          "Scale": {
+            "X": 2.85714,
+            "Y": 2.85714
+          },
+          "Size": {
+            "X": 31.5,
+            "Y": 35.0
+          }
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/RdtBtnFullLauncher.bflyt",
+      "Patches": [
+        {
+          "PaneName": "P_PictBase",
+          "Visible": false
+        },
+        {
+          "PaneName": "N_Tip",
+          "Position": {
+            "X": 0.0,
+            "Y": -110.0,
+            "Z": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/RdtBtnSet.bflyt",
+      "Patches": [
+        {
+          "PaneName": "P_PictBase",
+          "Visible": false
+        },
+        {
+          "PaneName": "N_BtnFocusKey",
+          "Size": {
+            "X": 70.0,
+            "Y": 70.0
+          }
+        },
+        {
+          "PaneName": "P_Effect",
+          "Size": {
+            "X": 64.0,
+            "Y": 64.0
+          }
+        },
+        {
+          "PaneName": "B_Hit",
+          "Scale": {
+            "X": 2.85714,
+            "Y": 2.85714
+          },
+          "Size": {
+            "X": 31.5,
+            "Y": 35.0
+          }
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/RdtBtnPvr.bflyt",
+      "Patches": [
+        {
+          "PaneName": "P_PictBase",
+          "Visible": false
+        },
+        {
+          "PaneName": "N_BtnFocusKey",
+          "Size": {
+            "X": 70.0,
+            "Y": 70.0
+          }
+        },
+        {
+          "PaneName": "P_Effect",
+          "Size": {
+            "X": 64.0,
+            "Y": 64.0
+          }
+        },
+        {
+          "PaneName": "B_Hit",
+          "Scale": {
+            "X": 2.85714,
+            "Y": 2.85714
+          },
+          "Size": {
+            "X": 31.5,
+            "Y": 35.0
+          }
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/RdtBtnIconGame.bflyt",
+      "Patches": [
+        {
+          "PaneName": "RootPane",
+          "Scale": {
+            "X": 0.35,
+            "Y": 0.35
+          }
+        },
+        {
+          "PaneName": "N_Tip",
+          "Position": {
+            "X": 0.0,
+            "Y": -172.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "PaneName": "B_Hit",
+          "Scale": {
+            "X": 2.85714,
+            "Y": 2.85714
+          },
+          "Size": {
+            "X": 92.4,
+            "Y": 92.4
+          }
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/RdtBase.bflyt",
+      "Patches": [
+        {
+          "PaneName": "N_ScrollArea",
+          "Position": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Size": {
+            "X": 1280.0,
+            "Y": 512.0
+          }
+        },
+        {
+          "PaneName": "N_ScrollWindow",
+          "Position": {
+            "X": 0.0,
+            "Y": -220.0,
+            "Z": 0.0
+          },
+          "Size": {
+            "X": 100000.0,
+            "Y": 383.0
+          }
+        },
+        {
+          "PaneName": "T_Blank",
+          "Position": {
+            "X": -518.0,
+            "Y": 197.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "PaneName": "N_GameRoot",
+          "Position": {
+            "X": -570.0,
+            "Y": -220.0,
+            "Z": 0.0
+          },
+          "Scale": {
+            "X": 1E-05,
+            "Y": 1.0
+          }
+        },
+        {
+          "PaneName": "N_Game",
+          "Scale": {
+            "X": 100000.0,
+            "Y": 1.0
+          }
+        },
+        {
+          "PaneName": "N_Icon_00",
+          "Position": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "PaneName": "N_Icon_01",
+          "Position": {
+            "X": 97.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "PaneName": "N_Icon_02",
+          "Position": {
+            "X": 194.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "PaneName": "N_Icon_03",
+          "Position": {
+            "X": 291.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "PaneName": "N_Icon_04",
+          "Position": {
+            "X": 388.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "PaneName": "N_Icon_05",
+          "Position": {
+            "X": 485.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "PaneName": "N_Icon_06",
+          "Position": {
+            "X": 582.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "PaneName": "N_Icon_07",
+          "Position": {
+            "X": 679.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "PaneName": "N_Icon_08",
+          "Position": {
+            "X": 776.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "PaneName": "N_Icon_09",
+          "Position": {
+            "X": 873.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "PaneName": "N_Icon_10",
+          "Position": {
+            "X": 970.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "PaneName": "N_Icon_11",
+          "Position": {
+            "X": 1067.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "PaneName": "N_Icon_12",
+          "Position": {
+            "X": 1164.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "PaneName": "L_BtnFlc",
+          "Position": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale": {
+            "X": 0.35,
+            "Y": 0.35
+          }
+        },
+        {
+          "PaneName": "N_System",
+          "Position": {
+            "X": 0.0,
+            "Y": 310.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "PaneName": "L_BtnNoti",
+          "Position": {
+            "X": -575.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale": {
+            "X": 0.7,
+            "Y": 0.7
+          }
+        },
+        {
+          "PaneName": "L_BtnShop",
+          "Position": {
+            "X": -475.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale": {
+            "X": 0.7,
+            "Y": 0.7
+          }
+        },
+        {
+          "PaneName": "L_BtnPvr",
+          "Position": {
+            "X": -375.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale": {
+            "X": 0.7,
+            "Y": 0.7
+          }
+        },
+        {
+          "PaneName": "L_BtnCtrl",
+          "Position": {
+            "X": 375.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale": {
+            "X": 0.7,
+            "Y": 0.7
+          }
+        },
+        {
+          "PaneName": "L_BtnSet",
+          "Position": {
+            "X": 475.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale": {
+            "X": 0.7,
+            "Y": 0.7
+          }
+        },
+        {
+          "PaneName": "L_BtnPow",
+          "Position": {
+            "X": 575.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale": {
+            "X": 0.7,
+            "Y": 0.7
+          }
+        },
+        {
+          "PaneName": "N_MyPage",
+          "Position": {
+            "X": 0.0,
+            "Y": 310.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "PaneName": "L_BtnAccount_00",
+          "Position": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "PaneName": "L_BtnAccount_01",
+          "Position": {
+            "X": 72.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale": {
+            "X": 0.792,
+            "Y": 0.792
+          }
+        },
+        {
+          "PaneName": "L_BtnAccount_02",
+          "Position": {
+            "X": -72.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale": {
+            "X": 0.792,
+            "Y": 0.792
+          }
+        },
+        {
+          "PaneName": "L_BtnAccount_03",
+          "Position": {
+            "X": 144.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale": {
+            "X": 0.792,
+            "Y": 0.792
+          }
+        },
+        {
+          "PaneName": "L_BtnAccount_04",
+          "Position": {
+            "X": -144.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale": {
+            "X": 0.792,
+            "Y": 0.792
+          }
+        },
+        {
+          "PaneName": "L_BtnAccount_05",
+          "Position": {
+            "X": 216.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale": {
+            "X": 0.792,
+            "Y": 0.792
+          }
+        },
+        {
+          "PaneName": "L_BtnAccount_06",
+          "Position": {
+            "X": -216.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale": {
+            "X": 0.792,
+            "Y": 0.792
+          }
+        },
+        {
+          "PaneName": "L_BtnAccount_07",
+          "Position": {
+            "X": 288.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale": {
+            "X": 0.792,
+            "Y": 0.792
+          }
+        },
+        {
+          "PaneName": "L_Hud",
+          "Position": {
+            "X": -230.0,
+            "Y": -325.0,
+            "Z": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/RdtBtnNtf.bflyt",
+      "Patches": [
+        {
+          "PaneName": "P_PictBase",
+          "Visible": false
+        },
+        {
+          "PaneName": "N_BtnFocusKey",
+          "Size": {
+            "X": 70.0,
+            "Y": 70.0
+          }
+        },
+        {
+          "PaneName": "P_Effect",
+          "Size": {
+            "X": 64.0,
+            "Y": 64.0
+          }
+        },
+        {
+          "PaneName": "B_Hit",
+          "Scale": {
+            "X": 2.85714,
+            "Y": 2.85714
+          },
+          "Size": {
+            "X": 31.5,
+            "Y": 33.95
+          }
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/RdtBtnShop.bflyt",
+      "Patches": [
+        {
+          "PaneName": "P_PictBase",
+          "Visible": false
+        },
+        {
+          "PaneName": "N_BtnFocusKey",
+          "Size": {
+            "X": 70.0,
+            "Y": 70.0
+          }
+        },
+        {
+          "PaneName": "P_Effect",
+          "Size": {
+            "X": 64.0,
+            "Y": 64.0
+          }
+        },
+        {
+          "PaneName": "B_Hit",
+          "Scale": {
+            "X": 2.85714,
+            "Y": 2.85714
+          },
+          "Size": {
+            "X": 31.5,
+            "Y": 35.0
+          }
+        }
+      ]
+    },
+    {
+      "FileName": "blyt/RdtBtnPow.bflyt",
+      "Patches": [
+        {
+          "PaneName": "P_PictBase",
+          "Visible": false
+        },
+        {
+          "PaneName": "N_BtnFocusKey",
+          "Size": {
+            "X": 70.0,
+            "Y": 70.0
+          }
+        },
+        {
+          "PaneName": "P_Effect",
+          "Size": {
+            "X": 64.0,
+            "Y": 64.0
+          }
+        },
+        {
+          "PaneName": "B_Hit",
+          "Scale": {
+            "X": 2.85714,
+            "Y": 2.85714
+          },
+          "Size": {
+            "X": 31.5,
+            "Y": 35.0
+          }
+        }
+      ]
+    }
+  ]
+}
