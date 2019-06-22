@@ -1,0 +1,29 @@
+Only x translation is a problem.
+N_GameRoot scale controls the gameroot scrollwidth, so change x scale of it to like 0.00001 and change N_Game to 100000 to compensate: is doesn't scroll anymore.
+RdtBase
+    N_ScrollWindow
+        width: 100000.0
+    N_GameRoot 
+        x Translation: p. Keep in mind N_Icon_00 at x=0
+        x Scale: 0.00001
+    N_Game
+    x translation: 0 (!)
+        x Scale: 100000.0
+        N_Icon_xx
+            x Translation: set the N_Icon_00 to x=0 and start from there. Keep in mind the scale of the RootPane in RdtBtnIconGame
+        N_Icon_12
+            L_BtnFlc
+                x/y scale: same as RdtBtnIconGame
+    Move the icons you want to hide to (1;9999). 
+    Don't forget to change y and scale of other things like scrollwindow/area y translation as usual
+Then to change size of the icons:
+RdtBtnIconGame
+    RootPane   
+        x Scale: p
+        y Scale: p
+    B_Hit
+        width/height: devide default by RootPane scale (Controls the 'cursor snap area'. Must be the right size to prevent the cursor from skipping an icon)
+        x+y Scale: set it to the opposite of the width/height change (eg. width 264->132: scale 1->2) (controls the touch area)
+       
+RdtBtnFullLauncher
+    ?Don't think you have to change anything here
