@@ -5,6 +5,7 @@ relative_links:
   enabled: true
   collections: true
 include:
+  - ResidentMenu.szs/index.md
   - README.md
   - LICENSE.md
   - COPYING.md
