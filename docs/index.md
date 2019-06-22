@@ -1,0 +1,10 @@
+
+**Welcome to the Switch Theming wiki!**
+
+Here you can find info on a few of the system titles which can be themed:
+* [common](common.szs)
+* [Home menu - ResidentMenu](ResidentMenu.szs)
+* [All apps - Flaunch](Flaunch.szs)
+* [Lockscreen - Entrance](Entrance.szs)
+* [Settings - Option](Option.szs)
+* _[Userpage - myPage](myPage.szs)_
