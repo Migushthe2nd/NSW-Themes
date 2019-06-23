@@ -15,7 +15,7 @@
             - **[L_BtnSet/RdtBtnSet.bflyt](ResidentMenu-RdtBtnSet.bflyt)**: `the settings button`
             - **[L_BtnPow/RdtBtnPow.bflyt](ResidentMenu-RdtBtnPow.bflyt)**: `the power button`
         - **[L_ChildLock/RdtBtnChildLock.bflyt](ResidentMenu-RdtBtnChildLock.bflyt)**: `the childlock button`
-        - _N_Balloon_
+        - *N_Balloon*
         - **N_MyPage**
            - **[L_BtnAccount_[00-07]](ResidentMenu-RdtBtnMyPage.bflyt)**: `all usericons which make use of a single layout`
         - **[L_Hud/Hud.bflyt](ResidentMenu-Hud.bflyt)**: `the hud (clock, network, battery)`

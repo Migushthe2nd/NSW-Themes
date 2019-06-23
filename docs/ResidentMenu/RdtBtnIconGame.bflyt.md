@@ -14,7 +14,7 @@
                             - **P_Suspend_00**: `the white oval background behind the text`
                             - **T_Suspend**: `the 'Playing' text when a game is opened`
                         - **P_account_[03-00]**: `the usericon displayed on the left of the 'Playing' indicator`
-                - _N_DL: loading bars you don't have to care about_
+                - *N_DL: loading bars you don't have to care about*
                 - **P_BtnDecideKey**: `the blue overlay which can be seen when a game is launched via the controller`
                 - **P_BtnTouch**: `the blue overlay which can be seen when tapping/holding the game icon`
                 - **P_InnerCursor**: `the white ring displayed between the blue cursor and the game icon`
