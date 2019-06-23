@@ -2,8 +2,6 @@ body {
     margin: 0;
   }
   
-  #MapWrapper {
-    width: 50%;
-    display: table;
-    margin: 0 auto;
-  }
+  .mapster-wrapper {
+    style="margin: 0 auto; align: center; vertical-valign: middle;"
+}
