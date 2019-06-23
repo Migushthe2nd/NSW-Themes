@@ -1,5 +1,4 @@
-rem By Migush and Stackoverflow ~ not the best code
-@echo off
+@echo on
 Setlocal EnableDelayedExpansion
 rem Set important variables
 	rem Set release folder
@@ -12,6 +11,9 @@ rem Set important variables
 	rem Set folder with menu overlay for preview images
 		Set "OverlayPreview=Overlays\%ThemeName%"
 		Set Sevenz="C:\Program Files\7-Zip\7z.exe"
+
+ECHO By Migush and Stackoverflow ~ not the best code
+
 :MENU0.5
 clear
 ECHO.
@@ -25,7 +27,7 @@ CALL :dequote jsonfile
 :DeQuote
 for /f "delims=" %%A in ('echo %%%1%%') do set %1=%%~A
 clear
-GOTO MENU1
+GOTO MENU0.55
 
 :NotExist1
 clear
@@ -35,6 +37,30 @@ Echo Try again...
 ECHO.
 pause
 GOTO MENU0.5
+
+:MENU0.55
+	ECHO.
+	ECHO ......................................................
+	ECHO     Do you want to use a custom DDS folder? 
+	ECHO ......................................................
+	ECHO.
+	ECHO (Leaving this empty will use the default directory)
+	ECHO.
+	
+	SET /P ddscustomfolder=
+	IF NOT EXIST %ddscustomfolder% GOTO NotExist0.55
+	SET "DDSFolder=%ddscustomfolder%"
+	clear
+	GOTO MENU1
+
+:NotExist0.55
+clear
+ECHO.
+ECHO That folder doesn't exist
+Echo Try again...
+ECHO.
+pause
+GOTO MENU0.55
 
 :MENU1
 if EXIST "%OverlayPreview%" GOTO MENU2
