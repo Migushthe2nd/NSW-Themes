@@ -1,4 +1,4 @@
-@echo on
+@echo off
 Setlocal EnableDelayedExpansion
 rem Set important variables
 	rem Set release folder
@@ -26,7 +26,6 @@ IF NOT EXIST %jsonfile% GOTO NotExist1
 CALL :dequote jsonfile
 :DeQuote
 for /f "delims=" %%A in ('echo %%%1%%') do set %1=%%~A
-clear
 GOTO MENU0.55
 
 :NotExist1
@@ -39,6 +38,7 @@ pause
 GOTO MENU0.5
 
 :MENU0.55
+clear
 	ECHO.
 	ECHO ......................................................
 	ECHO     Do you want to use a custom DDS folder? 
@@ -47,10 +47,8 @@ GOTO MENU0.5
 	ECHO (Leaving this empty will use the default directory)
 	ECHO.
 	
-	SET /P ddscustomfolder=
-	IF NOT EXIST %ddscustomfolder% GOTO NotExist0.55
-	SET "DDSFolder=%ddscustomfolder%"
-	clear
+	SET /P DDSFolder=
+	IF NOT EXIST "%DDSFolder%" GOTO NotExist0.55
 	GOTO MENU1
 
 :NotExist0.55
@@ -63,6 +61,7 @@ pause
 GOTO MENU0.55
 
 :MENU1
+clear
 if EXIST "%OverlayPreview%" GOTO MENU2
 	ECHO.
 	ECHO .....................................................................
@@ -84,7 +83,6 @@ if EXIST "%OverlayPreview%" GOTO MENU2
 	clear
 	ECHO That was an error.
 	pause
-	clear
 	GOTO MENU1
 
 		rem Set overlay names
@@ -104,7 +102,7 @@ if EXIST "%OverlayPreview%" GOTO MENU2
 			rem set DefaultFilesvariantlist= rounded squared transparant
 
 :MENU2
-
+clear
 ECHO.
 ECHO ....................................
 ECHO     What would You like to do?
@@ -165,7 +163,7 @@ CALL :dequote jsoncommonfile
 for /f "delims=" %%A in ('echo %%%1%%') do set %1=%%~A
 SET commonlyt="commonlyt=%jsoncommonfile%"
 clear
-GOTO MENU3
+GOTO All
 
 :NotExist2
 clear
@@ -176,27 +174,27 @@ ECHO.
 pause
 GOTO MENU2.5
 
-:MENU3
-clear
-ECHO.
-ECHO ....................................
-ECHO     What would You like to do?
-ECHO ....................................
-ECHO.
-ECHO 1 - Create NXTheme for all backgrounds with preview
-ECHO 2 - Create NXTheme for a single background with preview
-ECHO.
+REM :MENU3
+REM clear
+REM ECHO.
+REM ECHO ....................................
+REM ECHO     What would You like to do?
+REM ECHO ....................................
+REM ECHO.
+REM ECHO 1 - Create NXTheme for all backgrounds with preview
+REM ECHO 2 - Create NXTheme for a single background with preview
+REM ECHO.
 
-SET /P S3=Select a number, then press ENTER: 
-clear
-IF %S3%==1 GOTO All
-IF %S3%==2 GOTO Single
-ECHO That was an error.
-pause
-clear
-GOTO MENU3
+REM SET /P S3=Select a number, then press ENTER: 
+REM clear
+REM IF %S3%==1 GOTO All
+REM IF %S3%==2 GOTO Single
+REM ECHO That was an error.
+REM pause
+REM clear
+REM GOTO MENU3
 
-pause
+REM pause
 
 :All
 
