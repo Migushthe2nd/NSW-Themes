@@ -255,7 +255,23 @@ ECHO -------------------------------------------
 		ECHO.
 		ECHO.
 		ECHO Done.
+
 pause
 clear
+
+ECHO.
+ECHO .............................
+ECHO     Run this round again?
+ECHO .............................
+ECHO.
+ECHO 1 - Yes
+ECHO 2 - No
+ECHO.
+
+SET /P S5=Select a number, then press ENTER: 
+clear
+IF %S4%==1 GOTO Create
+clear
+
 :EOF
 exit
