@@ -22,6 +22,7 @@
         - **[L_BalloonCtrl/RdtBalloonCtrl.bflyt](ResidentMenu-RdtBalloonCtrl.bflyt)**: `the balloon which pops up when (dis)connecting a controller`
 
 # The most important files in ResidentMenu
+
 | Filename | Hypothetical full name |
 |------------------------------|---------------------------------|
 | [BatteryConsole.bflyt](ResidentMenu-BatteryConsole.bflyt) | BatteryConsole |

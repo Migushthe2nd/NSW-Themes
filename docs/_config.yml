@@ -1,7 +1,4 @@
 theme: jekyll-theme-cayman
-markdown: kramdown
-kramdown:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 plugins:
   - jekyll-relative-links
 relative_links:
