@@ -1,4 +1,4 @@
-# [Image Map](index_map)
+# [Image Map](index-map)
 # Contents
 - **RdtBase.bflyt**
     - **[L_BgNml/BgNml.bflyt](BgNml.bflyt)**: `contains the original light/dark background, but the 'exelixbg' panel too after being injected once`
