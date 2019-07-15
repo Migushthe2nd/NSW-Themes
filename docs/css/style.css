@@ -1,7 +1,9 @@
 body {
     margin: 0;
+    background-color: rgb(41, 41, 41);
+    color: lightgray;
   }
   
   .mapster-wrapper {
-    style="margin: 0 auto; align: center; vertical-valign: middle;"
+    style="margin: 0 auto; align: center; vertical-valign: middle;";
 }

@@ -1,4 +1,4 @@
-# [Image Map](RdtBtnIconGame.bflyt_map.html)
+# [Image Map](RdtBtnIconGame.bflyt-map.html)
 # Contents
 - **N_Root**
     - **N_Trans**

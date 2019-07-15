@@ -1,4 +1,4 @@
-# [Image Map](RdtBtnIconGame.bflyt_map)
+# [Image Map](RdtBtnIconGame.bflyt-map)
 # Contents
 - **N_Root**
     - **N_Delete**
