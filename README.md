@@ -15,3 +15,5 @@ Repo includes Jsons and pre-build NXThemes which can be used with [exelix's them
 * Improved Dogelayout (≤7.x (old version, see img) & all fw (new version))
 * Transparant Playerselect (all fw)
 * Unknown (Zahimi's requested port for all fw)
+
+# [Theming guide](https://migushthe2nd.github.io/NSW-Themes/ResidentMenu/)
