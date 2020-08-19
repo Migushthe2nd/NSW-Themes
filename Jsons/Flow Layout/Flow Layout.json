@@ -2,6 +2,7 @@
   "PatchName": "Flow layout",
   "AuthorName": "Migush",
   "TargetName": "ResidentMenu.szs",
+  "ID": "builtin_FlowLayout",
   "Files": [
     {
       "FileName": "blyt/BgNml.bflyt",
@@ -9,13 +10,13 @@
         {
           "PaneName": "P_Bg_00",
           "Position": {
-            "X": 0.0,
-            "Y": -245.0,
-            "Z": 0.0
+            "X": 0,
+            "Y": -245,
+            "Z": 0
           },
           "Size": {
-            "X": 1280.0,
-            "Y": 230.0
+            "X": 1280,
+            "Y": 230
           },
           "UsdPatches": [
             {
@@ -42,37 +43,37 @@
         {
           "PaneName": "P_BtnDecideKey",
           "Size": {
-            "X": 64.0,
-            "Y": 64.0
+            "X": 64,
+            "Y": 64
           }
         },
         {
           "PaneName": "P_BtnTouch",
           "Size": {
-            "X": 64.0,
-            "Y": 64.0
+            "X": 64,
+            "Y": 64
           }
         },
         {
           "PaneName": "N_BtnFocusKey",
           "Size": {
-            "X": 64.0,
-            "Y": 64.0
+            "X": 64,
+            "Y": 64
           }
         },
         {
           "PaneName": "P_Effect",
           "Size": {
-            "X": 64.0,
-            "Y": 64.0
+            "X": 64,
+            "Y": 64
           }
         },
         {
           "PaneName": "N_Tip",
           "Position": {
-            "X": 0.0,
-            "Y": 78.0,
-            "Z": 0.0
+            "X": 0,
+            "Y": 78,
+            "Z": 0
           }
         },
         {
@@ -82,8 +83,8 @@
             "Y": 1.25
           },
           "Size": {
-            "X": 72.0,
-            "Y": 80.0
+            "X": 72,
+            "Y": 80
           }
         }
       ]
@@ -177,37 +178,37 @@
         {
           "PaneName": "P_BtnDecideKey",
           "Size": {
-            "X": 64.0,
-            "Y": 64.0
+            "X": 64,
+            "Y": 64
           }
         },
         {
           "PaneName": "P_BtnTouch",
           "Size": {
-            "X": 64.0,
-            "Y": 64.0
+            "X": 64,
+            "Y": 64
           }
         },
         {
           "PaneName": "N_BtnFocusKey",
           "Size": {
-            "X": 64.0,
-            "Y": 64.0
+            "X": 64,
+            "Y": 64
           }
         },
         {
           "PaneName": "P_Effect",
           "Size": {
-            "X": 64.0,
-            "Y": 64.0
+            "X": 64,
+            "Y": 64
           }
         },
         {
           "PaneName": "N_Tip",
           "Position": {
-            "X": 0.0,
-            "Y": 78.0,
-            "Z": 0.0
+            "X": 0,
+            "Y": 78,
+            "Z": 0
           }
         },
         {
@@ -217,8 +218,8 @@
             "Y": 1.25
           },
           "Size": {
-            "X": 72.0,
-            "Y": 80.0
+            "X": 72,
+            "Y": 80
           }
         }
       ]
@@ -233,37 +234,37 @@
         {
           "PaneName": "P_BtnDecideKey",
           "Size": {
-            "X": 64.0,
-            "Y": 64.0
+            "X": 64,
+            "Y": 64
           }
         },
         {
           "PaneName": "P_BtnTouch",
           "Size": {
-            "X": 64.0,
-            "Y": 64.0
+            "X": 64,
+            "Y": 64
           }
         },
         {
           "PaneName": "N_BtnFocusKey",
           "Size": {
-            "X": 64.0,
-            "Y": 64.0
+            "X": 64,
+            "Y": 64
           }
         },
         {
           "PaneName": "P_Effect",
           "Size": {
-            "X": 64.0,
-            "Y": 64.0
+            "X": 64,
+            "Y": 64
           }
         },
         {
           "PaneName": "N_Tip",
           "Position": {
-            "X": 0.0,
-            "Y": 78.0,
-            "Z": 0.0
+            "X": 0,
+            "Y": 78,
+            "Z": 0
           }
         },
         {
@@ -273,8 +274,8 @@
             "Y": 1.25
           },
           "Size": {
-            "X": 72.0,
-            "Y": 80.0
+            "X": 72,
+            "Y": 80
           }
         }
       ]
@@ -324,9 +325,9 @@
         {
           "PaneName": "N_Tip",
           "Position": {
-            "X": 0.0,
-            "Y": 77.0,
-            "Z": 0.0
+            "X": 0,
+            "Y": 77,
+            "Z": 0
           }
         },
         {
@@ -336,8 +337,8 @@
             "Y": 1.25
           },
           "Size": {
-            "X": 56.0,
-            "Y": 64.0
+            "X": 56,
+            "Y": 64
           }
         }
       ]
@@ -415,24 +416,24 @@
         {
           "PaneName": "N_BtnFocusKey",
           "Size": {
-            "X": 256.0,
-            "Y": 256.0
+            "X": 256,
+            "Y": 256
           }
         },
         {
           "PaneName": "N_Tip",
           "Position": {
-            "X": 0.0,
+            "X": 0,
             "Y": -207.875,
-            "Z": 0.0
+            "Z": 0
           }
         },
         {
           "PaneName": "L_Balloon",
           "Position": {
-            "X": 0.0,
-            "Y": 0.0,
-            "Z": 0.0
+            "X": 0,
+            "Y": 0,
+            "Z": 0
           }
         },
         {
@@ -471,33 +472,33 @@
         {
           "PaneName": "N_ScrollArea",
           "Position": {
-            "X": 0.0,
+            "X": 0,
             "Y": -128.5,
-            "Z": 0.0
+            "Z": 0
           },
           "Scale": {
             "X": 0.9,
             "Y": 0.9
           },
           "Size": {
-            "X": 1300.0,
-            "Y": 300.0
+            "X": 1300,
+            "Y": 300
           }
         },
         {
           "PaneName": "N_ScrollWindow",
           "Position": {
-            "X": 0.0,
+            "X": 0,
             "Y": -128.5,
-            "Z": 0.0
+            "Z": 0
           },
           "Scale": {
             "X": 0.9,
             "Y": 0.9
           },
           "Size": {
-            "X": 1140.0,
-            "Y": 300.0
+            "X": 1140,
+            "Y": 300
           }
         },
         {
@@ -506,9 +507,9 @@
         {
           "PaneName": "N_GameRoot",
           "Position": {
-            "X": 0.0,
+            "X": 0,
             "Y": -128.5,
-            "Z": 0.0
+            "Z": 0
           },
           "Scale": {
             "X": 0.85,
@@ -518,9 +519,9 @@
         {
           "PaneName": "L_BtnChangeUser",
           "Position": {
-            "X": 0.0,
-            "Y": -135.0,
-            "Z": 0.0
+            "X": 0,
+            "Y": -135,
+            "Z": 0
           },
           "Scale": {
             "X": 0.9,
@@ -531,9 +532,9 @@
         {
           "PaneName": "N_System",
           "Position": {
-            "X": 395.0,
-            "Y": 275.0,
-            "Z": 0.0
+            "X": 395,
+            "Y": 275,
+            "Z": 0
           },
           "Scale": {
             "X": 0.8,
@@ -543,65 +544,65 @@
         {
           "PaneName": "L_BtnNoti",
           "Position": {
-            "X": -220.0,
-            "Y": 5000.0,
-            "Z": 0.0
+            "X": -220,
+            "Y": 5000,
+            "Z": 0
           }
         },
         {
           "PaneName": "L_BtnShop",
           "Position": {
-            "X": -132.0,
-            "Y": 0.0,
-            "Z": 0.0
+            "X": -132,
+            "Y": 0,
+            "Z": 0
           }
         },
         {
           "PaneName": "L_BtnPvr",
           "Position": {
-            "X": -44.0,
-            "Y": 0.0,
-            "Z": 0.0
+            "X": -44,
+            "Y": 0,
+            "Z": 0
           }
         },
         {
           "PaneName": "L_BtnCtrl",
           "Position": {
-            "X": 44.0,
-            "Y": 0.0,
-            "Z": 0.0
+            "X": 44,
+            "Y": 0,
+            "Z": 0
           }
         },
         {
           "PaneName": "L_BtnSet",
           "Position": {
-            "X": 132.0,
-            "Y": 0.0,
-            "Z": 0.0
+            "X": 132,
+            "Y": 0,
+            "Z": 0
           }
         },
         {
           "PaneName": "L_BtnPow",
           "Position": {
-            "X": 220.0,
-            "Y": 0.0,
-            "Z": 0.0
+            "X": 220,
+            "Y": 0,
+            "Z": 0
           }
         },
         {
           "PaneName": "L_ChildLock",
           "Position": {
-            "X": 175.0,
-            "Y": 275.0,
-            "Z": 0.0
+            "X": 175,
+            "Y": 275,
+            "Z": 0
           }
         },
         {
           "PaneName": "N_MyPage",
           "Position": {
             "X": -373.4,
-            "Y": 275.0,
-            "Z": 0.0
+            "Y": 275,
+            "Z": 0
           },
           "Scale": {
             "X": 0.8,
@@ -611,22 +612,22 @@
         {
           "PaneName": "L_Hud",
           "Position": {
-            "X": 130.0,
-            "Y": 275.0,
-            "Z": 0.0
+            "X": 130,
+            "Y": 275,
+            "Z": 0
           }
         },
         {
           "PaneName": "L_BalloonCtrl",
           "Position": {
-            "X": 430.0,
-            "Y": 226.0,
-            "Z": 0.0
+            "X": 430,
+            "Y": 226,
+            "Z": 0
           },
           "Rotation": {
-            "X": 0.0,
-            "Y": 0.0,
-            "Z": 180.0
+            "X": 0,
+            "Y": 0,
+            "Z": 180
           }
         }
       ]
@@ -651,9 +652,9 @@
         {
           "PaneName": "N_Ctrl",
           "Rotation": {
-            "X": 0.0,
-            "Y": 0.0,
-            "Z": 180.0
+            "X": 0,
+            "Y": 0,
+            "Z": 180
           }
         }
       ]
@@ -679,8 +680,8 @@
           "PaneName": "P_PictBase",
           "Position": {
             "X": -273.75,
-            "Y": -5000.0,
-            "Z": 0.0
+            "Y": -5000,
+            "Z": 0
           },
           "Scale": {
             "X": 18.004652,
@@ -690,37 +691,37 @@
         {
           "PaneName": "P_BtnDecideKey",
           "Size": {
-            "X": 64.0,
-            "Y": 64.0
+            "X": 64,
+            "Y": 64
           }
         },
         {
           "PaneName": "P_BtnTouch",
           "Size": {
-            "X": 64.0,
-            "Y": 64.0
+            "X": 64,
+            "Y": 64
           }
         },
         {
           "PaneName": "N_BtnFocusKey",
           "Size": {
-            "X": 64.0,
-            "Y": 64.0
+            "X": 64,
+            "Y": 64
           }
         },
         {
           "PaneName": "P_Effect",
           "Size": {
-            "X": 64.0,
-            "Y": 64.0
+            "X": 64,
+            "Y": 64
           }
         },
         {
           "PaneName": "N_Tip",
           "Position": {
-            "X": 0.0,
-            "Y": 78.0,
-            "Z": 0.0
+            "X": 0,
+            "Y": 78,
+            "Z": 0
           }
         }
       ]
@@ -731,9 +732,9 @@
         {
           "PaneName": "N_Tip",
           "Position": {
-            "X": 0.0,
-            "Y": 78.0,
-            "Z": 0.0
+            "X": 0,
+            "Y": 78,
+            "Z": 0
           }
         },
         {
@@ -743,29 +744,29 @@
         {
           "PaneName": "P_BtnDecideKey",
           "Size": {
-            "X": 64.0,
-            "Y": 64.0
+            "X": 64,
+            "Y": 64
           }
         },
         {
           "PaneName": "P_BtnTouch",
           "Size": {
-            "X": 64.0,
-            "Y": 64.0
+            "X": 64,
+            "Y": 64
           }
         },
         {
           "PaneName": "N_BtnFocusKey",
           "Size": {
-            "X": 64.0,
-            "Y": 64.0
+            "X": 64,
+            "Y": 64
           }
         },
         {
           "PaneName": "P_Effect",
           "Size": {
-            "X": 64.0,
-            "Y": 64.0
+            "X": 64,
+            "Y": 64
           }
         },
         {
@@ -775,8 +776,8 @@
             "Y": 1.25
           },
           "Size": {
-            "X": 72.0,
-            "Y": 80.0
+            "X": 72,
+            "Y": 80
           }
         }
       ]
@@ -800,37 +801,37 @@
         {
           "PaneName": "P_BtnDecideKey",
           "Size": {
-            "X": 64.0,
-            "Y": 64.0
+            "X": 64,
+            "Y": 64
           }
         },
         {
           "PaneName": "P_BtnTouch",
           "Size": {
-            "X": 64.0,
-            "Y": 64.0
+            "X": 64,
+            "Y": 64
           }
         },
         {
           "PaneName": "N_BtnFocusKey",
           "Size": {
-            "X": 64.0,
-            "Y": 64.0
+            "X": 64,
+            "Y": 64
           }
         },
         {
           "PaneName": "P_Effect",
           "Size": {
-            "X": 64.0,
-            "Y": 64.0
+            "X": 64,
+            "Y": 64
           }
         },
         {
           "PaneName": "N_Tip",
           "Position": {
-            "X": 0.0,
-            "Y": 78.0,
-            "Z": 0.0
+            "X": 0,
+            "Y": 78,
+            "Z": 0
           }
         },
         {
@@ -840,8 +841,8 @@
             "Y": 1.25
           },
           "Size": {
-            "X": 72.0,
-            "Y": 80.0
+            "X": 72,
+            "Y": 80
           }
         }
       ]
